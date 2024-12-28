@@ -1,4 +1,4 @@
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const express = require('express'); // don't forget to import express
 const { authenticateAdminToken } = require('../middleware/authMiddleware.js');
